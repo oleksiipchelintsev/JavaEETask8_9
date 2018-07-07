@@ -40,7 +40,7 @@ public class ServerLog {
             	} 
             	
             	long time = Long.parseLong((str.substring(0,str.indexOf(" "))));
-            	if(time < date1.getTime() || time > date2.getTime()) {  //attention for long loops in real project!!!
+            	if(time < date1.getTime() || time > date2.getTime()) {
             		strList.add(str);
             		System.out.println("added!!");
             	}
